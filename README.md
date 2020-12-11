@@ -7,7 +7,7 @@ Simple plugin for Leaflet that adds a Google Maps button to your maps pointing t
 Include the plugin CSS and JS files on your page after Leaflet files, using your method of choice:
 * [Download the latest release](https://github.com/zoltan-sule/leaflet.googlemapslink/archive/main.zip)
 * Install with npm: `npm install leaflet.googlemapslink`
-* Install with yarn: `yarn install leaflet.googlemapslink`
+* Install with yarn: `yarn add leaflet.googlemapslink`
 
 ## Usage
 
