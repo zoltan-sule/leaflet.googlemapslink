@@ -1,6 +1,6 @@
 {
   "name": "leaflet.googlemapslink",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple plugin for Leaflet that adds a Google Maps button to your maps pointing to google maps.",
   "peerDependencies": {
     "leaflet": "~1.7.0"
