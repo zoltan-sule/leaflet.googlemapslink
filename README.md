@@ -1,6 +1,6 @@
 # leaflet.googlemapslink
 
-It is a simple plugin for Leaflet that adds a Google Maps button to your maps pointing to google maps.
+It is a simple plugin for Leaflet Map that shows a Google Maps button pointing to google maps.
 It is useful when you want to use Leaflet Map but want to access Street View or Route Planning of Google Maps.
 
 ## Using the plugin
