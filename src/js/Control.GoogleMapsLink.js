@@ -1,12 +1,19 @@
+//import {Control} from './Control';
+//import * as L from 'leaflet';
+//import {DomUtil} from './DomUtil';
+import 'leaflet';
+
 (function () {
 
-    var baseUrls = {
+    const L = window['L'];
+
+    const baseUrls = {
         withPin:    "https://www.google.com/maps/place/<lat>,<lng>/@<lat>,<lng>,<zoom>z",
         withoutPin: "https://www.google.com/maps/@<lat>,<lng>,<zoom>z",
         withQuery:  "https://www.google.com/maps/place/<query>",
     };
 
-    L.Control.GoogleMapsLink = L.Control.extend({
+    export var GoogleMapsLink = L.Control.GoogleMapsLink = L.Control.extend({
         options: {
             position:      'bottomleft',
             title:         'Link to Google Maps',
